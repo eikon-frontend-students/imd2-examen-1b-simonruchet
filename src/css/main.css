@@ -75,6 +75,27 @@ video {
 
 /* 01. Sélecteurs CSS */
 
+h3,
+h4 {
+  font-family: "Libre Baskerville";
+}
+
+.section-sport h4 {
+  color: #78290f;
+}
+
+.section-culture h4 {
+  color: #15616d;
+}
+
+.section-regions .first {
+  font-weight: bold;
+}
+
+.first.highlighted {
+  background: #faf0ca;
+}
+
 /* 02. Centrer horizontalement */
 
 .calltoaction {
@@ -83,6 +104,8 @@ video {
   background: #fdf0d5;
   border: 1px solid #c1121f;
   text-transform: uppercase;
+  display: inline;
+  margin: auto;
 }
 
 .link {
@@ -92,6 +115,8 @@ video {
   color: #fdf0d5;
   font-family: "Libre Baskerville";
   text-transform: uppercase;
+  text-align: center;
+  margin: auto;
 }
 
 /* 03. Centrer verticalement */
@@ -103,6 +128,8 @@ video {
   padding: 20px;
   border-radius: 10px;
   background: #669bbc;
+  display: flex;
+  align-items: center;
 }
 
 .button {
@@ -111,6 +138,64 @@ video {
   background: #780000;
   color: #fdf0d5;
   text-align: center;
+  padding: 20px;
 }
 
 /* 04. Intégration */
+
+.integration {
+  margin-top: 100px;
+  display: flex;
+  width: 634px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  background: #f7fafd;
+}
+
+.card-integration {
+  display: flex;
+  width: 270px;
+  flex-direction: column;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.portrait-integration img {
+  width: 270px;
+  height: 250px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.content-integration {
+  display: flex;
+  height: 50px;
+  width: 270px;
+  padding: 0px 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans";
+  font-size: 12px;
+}
+
+.content-left h1 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.content-right {
+  display: flex;
+  gap: 10px;
+}
+
+.content-right img {
+  width: 20px;
+  height: 20px;
+}
